@@ -46,12 +46,6 @@ section{
     margin-bottom: 20px;
     line-height: 25px;
 }
-.recipies-title{
-    width: 500px;
-    margin:0 auto;
-    text-align:center;
-}
-
 .about-me{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
@@ -62,21 +56,47 @@ section{
     margin-top: 45px;
     margin-left: 50px;
 }
-.container{
-    margin: 20px 40px;
-    color:black;
+.recipie-content{
+    margin-top: 10%;
 }
-.recipies{
-    display:flex;
-    justify-content: center;
+.recipie-content h1{
+    font-size: 36px;
+    
     text-align: center;
-    width: auto;
-    margin: 20px 80px;
+}
+.recipie-content p{
+    margin-top: 20px;
+    margin-bottom: 30px;
     
 }
-.recipies .recipie-title-img{
-    width: 260px;
-    height: 260px;
+
+.recipies-two{
+    display:flex;
+    
+    width: auto;
+    justify-content: center;
+}
+.recipies-two .item-details {
+    background: #ffffff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    color: #252525;
+    border-radius: 10px;
+    box-shadow: 4px 2px 21px #f0eeee;
+}
+.recipies-two .item-details h2{
+    color: #18191F;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.recipies-two .item-details .item-img{
+    width: 100px;
+}
+.recipies-two .item-details .item-img img{
+    width: 250px;    
+    border-radius: 10px;
 }
 
 footer{
@@ -98,3 +118,4 @@ footer p{
     font-size: 16px;
     font-weight: 400;
 }
+
