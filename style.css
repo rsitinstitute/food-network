@@ -24,6 +24,7 @@ p{
     font-weight: 700;
     border-radius: 20px;
     color: white;
+    
 }
 .half-portion h1{
     font-size: 50px;
@@ -80,7 +81,7 @@ section{
     width: 300px;
     padding: 20px;
     color: #252525;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 4px 2px 21px #f0eeee;
 }
 .recipies .item-details h2{
